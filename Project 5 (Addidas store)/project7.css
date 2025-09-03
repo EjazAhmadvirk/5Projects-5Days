@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+/* styling of main tag  */
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(206, 185, 185);
+}
+/* nav tag styling is here  */
+.nav{
+    height: 110px;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* nav-bar styling is here  */
+.nav-bar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* logo styling is here  */
+.nav img{
+    height: 75px;
+    width: auto;
+    margin-right: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+/* nav-bar element styling is here  */
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+/* nav-bar list tag styling part  */
+.nav-bar ul li{
+    font-family: 'Times New Roman';
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+    transition: 0.5s;
+ 
+}
+/* .nav-bar styling start here  */
+.nav-bar ul li:hover{
+    color: black;
+    text-shadow: 2px solid white;
+    font-size: 23px;
+    
+}
+/* nav-bar-1 styling part  */
+.nav-bar-1 i{
+    font-size: 25px;
+    margin-right: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+/* icon styling  */
+.nav-bar-1 i:hover{
+    color: black;
+    text-shadow: 2px solid white;
+    font-size: 30px;
+
+}
+/* content styling part  */
+.content{
+    height: calc(100%-110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+
+    
+}
+/* content-1 styling start  */
+/* content-1 styling  */
+.content-1{
+    height: 100%;
+    width: 40%;
+    padding: 80px 100px;
+
+}
+/* h5 styling in content-1  */
+.content-1 h5{
+    font-size: 23px;
+    text-transform: capitalize;
+    color: gray;
+    margin-bottom: 10px;
+
+}
+/* styling of h1 tag in content-1  */
+.content-1 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+/* span styling part  */
+
+.content-1 h1 span{
+    color: gray;
+    cursor: pointer;
+
+}
+
+/* styling of paragraph  */
+.content-1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    font-weight: 500;
+}
+
+/* buttion styling part  */
+.btn{
+    height: 45px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+/* buttion hover affect  */
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* .content-2 stying here  */
+.content-2{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+
+
+
+}
+
+/* scrollbar setting  */
+.content-2::-webkit-scrollbar{
+    display: none;
+}
+/* products styling start here  */
+.product{
+    height: 370px;
+    width: 240px;
+    position: relative;
+    background-color: rgb(206, 190, 190);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+/* product hover styling  */
+.product:hover{
+    height: 380px;
+    width: 255px;
+}
+/* product img styling part  */
+.product img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 18%;
+}
+
+/* heading tag styling  */
+.product h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 25%;
+    margin-left: 52px;
+}
+/* type styling  */
+.type{
+    position: absolute;
+    bottom: 19%;
+    font-weight: 500;
+    margin-left: 66px;
+
+}
+/* price tag styling start here  */
+.price{
+    position: absolute;
+    font-size: 20px;
+    bottom: 6%;
+    font-weight: bold;
+    margin-left: 104px;
+    
+}
+.color{
+    position: absolute;
+    font-size: 17px;
+    bottom: 15%;
+    font-weight: 500;
+    margin-left: 86px;
+    
+}
